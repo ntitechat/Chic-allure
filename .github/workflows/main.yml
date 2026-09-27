@@ -40,7 +40,7 @@ jobs:
         run: npm install
 
       - name: Construire l'application
-        run: run: npm run build -- --base=/Chic-allure/
+        run: npm run build -- --base=/Chic-allure/
 
       - name: Préparer GitHub Pages
         uses: actions/configure-pages@v5
